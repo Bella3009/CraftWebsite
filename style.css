@@ -106,11 +106,20 @@ main{
 }
 main div{
     background-color: #aed8f8;
-    margin: 2%;
+    margin-left: 2.5%;
+    text-align: center;
 }
 main div:hover{
     border: #1f3f74 solid 2px;
 }
 main img{
     width:100%
+}
+main button{
+    width: 49.2%;
+    background: linear-gradient(179.5deg, #ffca45 3.3%, #ff9d49 96%);
+}
+main button:hover{
+    width: 49%;
+    background: linear-gradient(179.5deg, #ff9d49 96%, #ffca45 3.3%);
 }
