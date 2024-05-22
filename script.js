@@ -4,3 +4,7 @@ function PrCartAdd() {
 function SrCartAdd() {
     alert("Service was added to cart");
 };
+
+$(document).ready(function() {
+    
+})
