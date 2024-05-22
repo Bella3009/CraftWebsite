@@ -107,6 +107,7 @@ main{
 main div{
     background-color: #aed8f8;
     margin-left: 2.5%;
+    margin-bottom: 2.5%;
     text-align: center;
 }
 main div:hover{
