@@ -10,7 +10,6 @@ body {
   margin: 0px;
   background-color: #78b9ea;
 }
-
 header {
     text-align: center;
     background: radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) 0%, rgb(56, 113, 209) 22.9%, rgb(38, 76, 140) 76.7%, rgb(31, 63, 116) 100.2%);
@@ -23,30 +22,26 @@ header img {
     float: left;
 }
 nav{
-    background-color: #ffa600;
+    background: linear-gradient(179.5deg, #ffca45 3.3%, #ff9d49 96%);
     color: white;
     padding: 1%;
     margin-bottom: 1%;
     text-align: center;
 }
-
 nav ul li{
     display: inline;
 }
-
 nav ul li a{
     color: white;
     text-decoration: none;
     padding-left: 1.5%;
 }
-
 nav ul li a:hover{
     background: linear-gradient(to top, #78b9ea 0%, #1f3f74 100%);
     text-decoration: none;
     color: #ffffff;
     padding: 1.1%;
 }
-
 .notice{
     text-align: center;
     color: black;
@@ -74,6 +69,22 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.filterSec{
+    background: linear-gradient(179.5deg, #ffca45 3.3%, #ff9d49 96%);
+    float: left;
+    width: 49.88%;
+    border: #1f3f74 solid 1px;
+}
+.filterSec form{
+    padding: 1%;
+}
+.filterSec form h2{
+    padding-bottom: 1%;
+    text-decoration: underline;
+}
+.filterSec form select{
+    width: 40%;
 }
 footer {
     background: radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) 0%, rgb(56, 113, 209) 22.9%, rgb(38, 76, 140) 76.7%, rgb(31, 63, 116) 100.2%);
