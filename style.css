@@ -1,3 +1,4 @@
+/*Styling for all the pages*/
 * {
   margin: 0;
   padding: 0;
@@ -42,13 +43,6 @@ nav ul li a:hover{
     color: #ffffff;
     padding: 1.1%;
 }
-.notice{
-    text-align: center;
-    color: black;
-    font-weight: bold;
-    text-decoration: underline;
-    margin-bottom: 1%;
-}
 .imagesSec{
     float: left;
     background-color: #78b9ea;
@@ -76,6 +70,27 @@ nav ul li a:hover{
     width: 49.88%;
     border: #1f3f74 solid 1px;
 }
+footer {
+    background: radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) 0%, rgb(56, 113, 209) 22.9%, rgb(38, 76, 140) 76.7%, rgb(31, 63, 116) 100.2%);
+    clear: both;
+    padding: 1%;
+}
+footer p{
+    color: orange;
+    font-size: 20px;
+    text-align: center;
+}
+/*Shop page formating*/
+.notice{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 1%;
+}
+.filterSec{
+    margin-bottom: 1%;
+}
 .filterSec form{
     padding: 1%;
 }
@@ -86,13 +101,16 @@ nav ul li a:hover{
 .filterSec form select{
     width: 40%;
 }
-footer {
-    background: radial-gradient(circle at 48.7% 44.3%, rgb(30, 144, 231) 0%, rgb(56, 113, 209) 22.9%, rgb(38, 76, 140) 76.7%, rgb(31, 63, 116) 100.2%);
-    clear: both;
-    padding: 1%;
+main{
+    width: 22%;
 }
-footer p{
-    color: orange;
-    font-size: 20px;
-    text-align: center;
+main div{
+    background-color: #aed8f8;
+    margin: 2%;
+}
+main div:hover{
+    border: #1f3f74 solid 2px;
+}
+main img{
+    width:100%
 }
