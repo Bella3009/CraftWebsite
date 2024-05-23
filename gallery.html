@@ -8,10 +8,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
 </head>
 <body>
+    <!-- Add a tag to make the jQuery plugin -->
     <header>
         <h1>CraftyMaker</h1>
         <img id="menuImg" src="images/Menu.png" alt="Menu">
@@ -29,8 +29,8 @@
         <section class="galleryFilter">
             <form>
                 <h2>Products</h2>
-                <label>Material:</label>
                 <br>
+                <p>Material:</p>
                 <input type="checkbox" id="cotton" name="cotton" value="cotton">
                 <label for="cotton">Cotton</label>
                 <br>
@@ -39,20 +39,24 @@
                 <br>
                 <br>
                 <p>Weight:<p>
-                <input type="checkbox" id="cotton" name="cotton" value="cotton">
-                <label for="cotton">Cotton</label>
+                <input type="checkbox" id="lace" name="lace" value="lace">
+                <label for="lace">Lace</label>
                 <br>
-                <input type="checkbox" id="wool" name="wool" value="wool">
-                <label for="wool">Wool</label>
+                <input type="checkbox" id="medium" name="medium" value="medium">
+                <label for="medium">Medium</label>
             </form>
         </section>
         <section class="galleryImg">
             <div class="cotton lace">
-                <img src="images/Cotton (1).jpg" alt="Red Cotton">
+                <a href="images/Cotton (1).jpg" data-fancybox="Gallery">
+                    <img src="images/Cotton (1).jpg" alt="Red Cotton">
+                </a>
                 <p>Red Cotton Yarn</p>
             </div>
             <div class="cotton lace">
-                <img src="images/Cotton (2).jpg" alt="Purple Cotton">
+                <a href="images/Cotton (2).jpg" data-fancybox="Gallery">
+                    <img src="images/Cotton (2).jpg" alt="Purple Cotton">
+                </a>
                 <p>Purple Cotton Yarn</p>
             </div>
             <div class="wool bulky">
@@ -84,5 +88,8 @@
     <footer>
         <p>&#169; Made by Sara Bella Gauci 2024</p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

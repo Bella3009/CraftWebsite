@@ -18,4 +18,20 @@ $(document).ready(function() {
             $("nav").slideDown();
         }
     })
+    $(".btnContact").click(function(){
+        var fName = $(".fName").val();
+        var cNum = $(".cNum").val();
+        var email = $(".email").val();
+        var comment = $(".comment").val();
+
+        if (fName === "" || cNum === "" || email === ""){
+            alert("All fields except the comments must be filled")
+        }
+    })
+
 })
+
+
+Fancybox.bind('[data-fancybox="Gallery"]', {
+
+});
