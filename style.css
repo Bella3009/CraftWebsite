@@ -114,10 +114,16 @@ footer p{
     width: 100%;
     margin-bottom: 1.5%;
 }
+#formSubmit {
+    width: 100%;
+    text-align: center;
+}
 .btnContact{
     background: radial-gradient(circle at 48.7% 44.3%, #1e90e7 0%, #3871d1 22.9%, #264c8c 76.7%, #1f3f74 100.2%);
     text-align: center;
     color: white;
+    width: 10%;
+    margin: 0 auto;
 }
 .btnContact:hover{
     background: radial-gradient(circle at 12.3% 19.3%, #5558da 0%, #5fd1f9 100.2%);
@@ -134,13 +140,15 @@ footer p{
     width: 15%;
     height: calc(100vh - 50px);
     position: sticky;
+    border-right: #1f3f74 solid 1px;
     /* height:100%; */
 }
 .galleryImg{
-    width: 80%;
+    width: 82.9%;
     display: flex;
     flex-wrap: wrap;
     margin-top: 1%;
+    justify-content: space-evenly;
 }
 /*Shop page styling*/
 .notice{
@@ -175,11 +183,11 @@ main{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 main div{
     background-color: #aed8f8;
-    width: 20%;
-    margin-left: 2.5%;
+    width: 22%;
     margin-bottom: 2.5%;
     text-align: center;
 }
