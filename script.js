@@ -4,6 +4,10 @@ function PrCartAdd() {
 function SrCartAdd() {
     alert("Service was added to cart");
 };
+function showDesc() {
+    var descPar = document.getElementById("descP");
+    descPar.innerHTML = "High Quality product of 100g each yarn";
+}
 
 $(document).ready(function() {
     

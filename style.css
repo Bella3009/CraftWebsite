@@ -120,13 +120,16 @@ footer p{
 }
 .filterSec{
     background: linear-gradient(179.5deg, #ffca45 3.3%, #ff9d49 96%);
+    border: #1f3f74 solid 1px;
     float: left;
-    width: 49.8%;
-    border: #1f3f74 solid 1%;
+    width: 49.7%;
     margin-bottom: 1%;
 }
+.productFilter{
+    border: #1f3f74 solid 1%;
+}
 .filterSec form{
-    width: 100%;
+    width: 99%;
     padding: 1%;
 }
 .filterSec form h2{
