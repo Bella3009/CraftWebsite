@@ -22,11 +22,18 @@ header {
     font-size: 25px;
     padding: 1%;
 }
-header img {
+#cartImg {
     width: 3.5%;
     /* float: right; */
     position: absolute;
     right: 20px;
+    top: 20px;
+}
+#menuImg {
+    width: 3.5%;
+    /* float: right; */
+    position: absolute;
+    left: 20px;
     top: 20px;
 }
 nav{
