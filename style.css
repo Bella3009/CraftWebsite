@@ -74,16 +74,18 @@ nav ul li a:hover{
     width: 50%;
     color: black;
     font-size: 16px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
 }
 .descSec p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 90%;
+    text-align: justify;
 }
 footer {
     background: radial-gradient(circle at 48.7% 44.3%, #1e90e7 0%, #3871d1 22.9%, #264c8c 76.7%, #1f3f74 100.2%);
     clear: both;
-    padding: 1%;
+    padding: 1% 0;
     position: absolute;
     /* bottom: 0; */
     width: 100%;
