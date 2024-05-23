@@ -148,6 +148,9 @@ footer p{
     border-right: #1f3f74 solid 1px;
     /* height:100%; */
 }
+.galleryFilter h2{
+    text-decoration: underline;
+}
 .galleryImg{
     width: 82.9%;
     display: flex;
