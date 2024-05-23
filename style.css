@@ -84,6 +84,9 @@ footer {
     background: radial-gradient(circle at 48.7% 44.3%, #1e90e7 0%, #3871d1 22.9%, #264c8c 76.7%, #1f3f74 100.2%);
     clear: both;
     padding: 1%;
+    position: absolute;
+    /* bottom: 0; */
+    width: 100%;
 }
 footer p{
     color: orange;
