@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="script.js"></script>
 </head>
 <body>
@@ -16,7 +17,7 @@
         <img id="menuImg" src="images/Menu.png" alt="Menu">
         <img id="cartImg" src="images/Empty.png" alt="Cart Icon">
     </header>
-    <nav>
+    <nav id="galNav">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="shop.html">Shop</a></li>
@@ -45,38 +46,40 @@
                 <label for="wool">Wool</label>
             </form>
         </section>
-        <div class="cotton lace">
-            <img src="images/Cotton (1).jpg" alt="Red Cotton">
-            <p>Red Cotton Yarn</p>
-        </div>
-        <div class="cotton lace">
-            <img src="images/Cotton (2).jpg" alt="Purple Cotton">
-            <p>Purple Cotton Yarn</p>
-        </div>
-        <div class="wool bulky">
-            <img src="images/Wool.jpg" alt="White Wool">
-            <p>White Wool Yarn</p>
-        </div>
-        <div class="wool medium">
-            <img src="images/Wool (1).jpg" alt="Green Wool">
-            <p>Green Wool Yarn</p>
-        </div>
-        <div class="wool medium">
-            <img src="images/Wool (2).jpg" alt="Dusty Pink Wool">
-            <p>Dusty Pink Wool Yarn</p>
-        </div>
-        <div class="crochet beginner">
-            <img src="images/Crochet.jpg" alt="Crochet">
-            <p>Beginner Crochet Course</p>
-        </div>
-        <div class="knitting beginner">
-            <img src="images/Knitting.jpg" alt="Crochet">
-            <p>Beginner Knitting Course</p>
-        </div>
-        <div class="weaving intermediate">
-            <img src="images/Weaving.jpg" alt="Crochet">
-            <p>Intermediate Weaving Course</p>
-        </div>
+        <section class="galleryImg">
+            <div class="cotton lace">
+                <img src="images/Cotton (1).jpg" alt="Red Cotton">
+                <p>Red Cotton Yarn</p>
+            </div>
+            <div class="cotton lace">
+                <img src="images/Cotton (2).jpg" alt="Purple Cotton">
+                <p>Purple Cotton Yarn</p>
+            </div>
+            <div class="wool bulky">
+                <img src="images/Wool.jpg" alt="White Wool">
+                <p>White Wool Yarn</p>
+            </div>
+            <div class="wool medium">
+                <img src="images/Wool (1).jpg" alt="Green Wool">
+                <p>Green Wool Yarn</p>
+            </div>
+            <div class="wool medium">
+                <img src="images/Wool (2).jpg" alt="Dusty Pink Wool">
+                <p>Dusty Pink Wool Yarn</p>
+            </div>
+            <div class="crochet beginner">
+                <img src="images/Crochet.jpg" alt="Crochet">
+                <p>Beginner Crochet Course</p>
+            </div>
+            <div class="knitting beginner">
+                <img src="images/Knitting.jpg" alt="Crochet">
+                <p>Beginner Knitting Course</p>
+            </div>
+            <div class="weaving intermediate">
+                <img src="images/Weaving.jpg" alt="Crochet">
+                <p>Intermediate Weaving Course</p>
+            </div>
+        </section>
     </main>
     <footer>
         <p>&#169; Made by Sara Bella Gauci 2024</p>

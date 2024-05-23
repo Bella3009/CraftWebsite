@@ -10,5 +10,12 @@ function showDesc() {
 }
 
 $(document).ready(function() {
-    
+    $("#menuImg").click(function(){
+        if ($("nav").is(":visible")){
+            $("nav").slideUp();
+        }
+        else {
+            $("nav").slideDown();
+        }
+    })
 })

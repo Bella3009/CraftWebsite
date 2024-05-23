@@ -30,11 +30,13 @@ header {
     top: 20px;
 }
 #menuImg {
-    width: 3.5%;
+    width: 4%;
     /* float: right; */
     position: absolute;
     left: 20px;
     top: 20px;
+    background: rgba(0,0,0,0);
+    border:none;
 }
 nav{
     background: linear-gradient(179.5deg, #ffca45 3.3%, #ff9d49 96%);
@@ -123,10 +125,22 @@ footer p{
 }
 
 /* Gallery page styling */
+#galNav{
+    margin: 0;
+}
 .galleryFilter{
     background: linear-gradient(179.5deg, #ff9d49 50%, #ffca45 100%);
     padding: 1%;
+    width: 15%;
+    height: calc(100vh - 50px);
+    position: sticky;
     /* height:100%; */
+}
+.galleryImg{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
 }
 /*Shop page styling*/
 .notice{
