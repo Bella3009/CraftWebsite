@@ -123,7 +123,7 @@ $(document).ready(function() {
             validVal = true
 
             if (fName.match(/^[a-zA-Z ]+$/) == null){
-                alert("Full Name must be a name")
+                alert("Full Name must contain only letters and spaces")
                 validVal = false
             }
             if (cNum.match(/^[0-9]+$/) == null){
